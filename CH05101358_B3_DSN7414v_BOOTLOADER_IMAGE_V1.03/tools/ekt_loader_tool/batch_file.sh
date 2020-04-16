@@ -30,6 +30,15 @@ EOF
 ./ekt_loader_tool ekt_loader_tool-65535-65535.cfg  << EOF
 1
 EOF
+./ekt_loader_tool ekt_loader_tool-20000-20000.cfg  << EOF
+1
+EOF
+./ekt_loader_tool ekt_loader_tool-30000-30000.cfg  << EOF
+1
+EOF
+./ekt_loader_tool ekt_loader_tool-40000-40000.cfg  << EOF
+1
+EOF
 ./ekt_loader_tool ekt_loader_tool-big.cfg  << EOF
 1
 EOF

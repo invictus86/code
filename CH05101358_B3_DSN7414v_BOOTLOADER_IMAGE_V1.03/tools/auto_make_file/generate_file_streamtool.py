@@ -161,7 +161,8 @@ def modify_file_version11(old_file_path, new_file_path, old_str1, new_str1, old_
 
 
 def make_special_bootlogo_file():
-    new_str_dict = {1200: 1200, 1201: 1201, 1202: 1202, 1203: 1203, 1204: 1204, 1205: 1205, 1100: 1100, 1101: 1101, 1102: 1102,
+    new_str_dict = {1200: 1200, 1201: 1201, 1202: 1202, 1203: 1203, 1204: 1204, 1205: 1205, 1100: 1100, 1101: 1101,
+                    1102: 1102,
                     1103: 1103, 1104: 1104}
     old_file_path = "./ekt_loader_tool.cfg"
     new_file_path = "./ekt_loader_tool-specil-{}.cfg"
@@ -396,7 +397,9 @@ def make_app_bootlogo_file():
                     [999, 1001, 1001, 1001, 1001, 1001], [1000, 999, 999, 999, 999, 999],
                     [1000, 1000, 1000, 1000, 1000, 1000], [1000, 1001, 1001, 1001, 1001, 1001],
                     [1001, 999, 999, 999, 999, 999], [1001, 1000, 1000, 1000, 1000, 1000],
-                    [1001, 1001, 1001, 1001, 1001, 1001], [65535, 65535, 65535, 65535, 65535, 65535]]
+                    [1001, 1001, 1001, 1001, 1001, 1001], [65535, 65535, 65535, 65535, 65535, 65535],
+                    [20000, 20000, 20000, 20000, 20000, 20000], [30000, 30000, 30000, 30000, 30000, 30000],
+                    [40000, 40000, 40000, 40000, 40000, 40000]]
 
     old_file_path = "./ekt_loader_tool.cfg"
     new_file_path = "./ekt_loader_tool-{}-{}.cfg"
@@ -858,7 +861,7 @@ def make_big_file():
     new_str4 = 'InputFile2 "5 big_fsi_size.bin 1 {}"'.format(fsi_ver)
     new_str20 = 'InputFile3 "6 big_bootlogo_size.bin 1 {}"'.format(bootlogo_ver)
     new_str30 = 'InputFile4 "8 big_see_size.ubo 1 {}"'.format(see_ver)
-    new_str40 = ''
+    new_str40 = 'InputFile5 "10 big_cfg_size.squashfs 1 {}"'.format(cfg_ver)
 
     new_str50 = 'USBOutputFile "./7414v-103/big_size/UpgradeFile.bin"'
     new_str60 = 'OTAOutputFile "./7414v-103/big_size/UpgradeFile.ts"'
@@ -894,7 +897,7 @@ def make_excessive_big_file():
     new_str4 = 'InputFile2 "5 excessive_big_fsi_size.bin 1 {}"'.format(fsi_ver)
     new_str20 = 'InputFile3 "6 excessive_big_bootlogo_size.bin 1 {}"'.format(bootlogo_ver)
     new_str30 = 'InputFile4 "8 excessive_big_see_size.ubo 1 {}"'.format(see_ver)
-    new_str40 = ''
+    new_str40 = 'InputFile5 "10 excessive_big_cfg_size.squashfs 1 {}"'.format(cfg_ver)
 
     new_str50 = 'USBOutputFile "./7414v-103/excessive_big_size/UpgradeFile.bin"'
     new_str60 = 'OTAOutputFile "./7414v-103/excessive_big_size/UpgradeFile.ts"'
@@ -936,6 +939,12 @@ if __name__ == '__main__':
     create_folder("./7414v-103/1001/1001")
     create_folder("./7414v-103/65535")
     create_folder("./7414v-103/65535/65535")
+    create_folder("./7414v-103/20000")
+    create_folder("./7414v-103/20000/20000")
+    create_folder("./7414v-103/30000")
+    create_folder("./7414v-103/30000/30000")
+    create_folder("./7414v-103/40000")
+    create_folder("./7414v-103/40000/40000")
 
     create_folder("./7414v-103/incorrect_hardware")
     create_folder("./7414v-103/incorrect_oui")
