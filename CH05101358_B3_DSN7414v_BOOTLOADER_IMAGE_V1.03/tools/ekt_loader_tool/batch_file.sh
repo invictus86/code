@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 python generate_file_streamtool.py
+cd ./make_big_file/
+python ./generate_file_cut_size.py
+cd ../
 ./ekt_loader_tool ekt_loader_tool-999-999.cfg  << EOF
 1
 EOF

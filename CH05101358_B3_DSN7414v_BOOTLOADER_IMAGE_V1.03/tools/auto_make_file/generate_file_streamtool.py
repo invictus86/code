@@ -855,7 +855,7 @@ def make_big_file():
 
     [dsn_ver, vmlinux_ver, fsi_ver, bootlogo_ver, see_ver, cfg_ver] = list_version
     new_str_1 = "DSN {}".format(dsn_ver)
-    new_str2 = 'InputFileNumber 4'
+    new_str2 = 'InputFileNumber 5'
 
     new_str3 = 'InputFile1 "4 big_vmlinux_size.bin 1 {}"'.format(vmlinux_ver)
     new_str4 = 'InputFile2 "5 big_fsi_size.bin 1 {}"'.format(fsi_ver)
@@ -891,7 +891,7 @@ def make_excessive_big_file():
     [dsn_ver, vmlinux_ver, fsi_ver, bootlogo_ver, see_ver, cfg_ver] = list_version
 
     new_str_1 = "DSN {}".format(dsn_ver)
-    new_str2 = 'InputFileNumber 4'
+    new_str2 = 'InputFileNumber 5'
 
     new_str3 = 'InputFile1 "4 excessive_big_vmlinux_size.bin 1 {}"'.format(vmlinux_ver)
     new_str4 = 'InputFile2 "5 excessive_big_fsi_size.bin 1 {}"'.format(fsi_ver)
