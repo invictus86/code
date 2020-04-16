@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+hisilicon.fastboot.config.client.gateway=169.254.216.1
+hisilicon.fastboot.config.client.ip=169.254.216.0
+hisilicon.fastboot.config.client.netmask=255.255.0.0
+hisilicon.fastboot.config.serverip=169.254.216.178

@@ -1,0 +1,16 @@
+LIBRARY Calc.dll
+
+EXPORTS
+DeinitSock
+InitSock
+Readreg
+ReadregMulti
+Writereg
+WriteregMulti
+closei2c
+geterror
+openi2c
+seti2cport
+seti2cspeed
+ReadregPeriod
+geterror

@@ -1,0 +1,33 @@
+/*
+* Configure total TAPs on JTAG/EJTAG Daisy-Chain 
+* For example: configure 3 TAPs on Daisy-Chain
+*/
+
+TAPS:3
+
+/*
+* Configure TAP order, CPU achitecuter, and how many cores
+* within each TAP.
+* For example: 2 ARM Cortex_A9 cores align on first location 
+* of Daisy-Chain, 2 MIPS cores aligns on align on the second 
+* third location of Daisy-Chain, respectively.
+*/
+
+TAP:0:CORTEX_A9:SMP:Main:4
+TAP:1:MIPS_24KE:AMP:SEE:1
+TAP:2:MIPS_24KE:AMP:Audio:1
+
+/*
+* Configure Debug Base Address for each core
+* For example: Debug Base Addresses for first two cores
+* within TAP 0 are 0x800110000 and 0x80022000. And Debug
+* Base Addresses for the last two MIPS cores within TAP 1
+* TAP2 are 0xa0000020 and 0xa6000020.
+*/
+
+DBGBASE:TAP:0:0:0x80030000
+DBGBASE:TAP:0:1:0x80032000
+DBGBASE:TAP:0:2:0x80034000
+DBGBASE:TAP:0:3:0x80036000
+DBGBASE:TAP:1:0:0xa0000020
+DBGBASE:TAP:2:0:0xa6000020

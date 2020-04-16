@@ -1,0 +1,11 @@
+LIBRARY libhiice.dll
+
+EXPORTS
+I2C_CloseChannel
+I2C_DeviceStream
+I2C_OpenChannel
+I2C_OpenChannelEx
+i2c_read
+i2c_write
+set_pin_high
+set_pin_low

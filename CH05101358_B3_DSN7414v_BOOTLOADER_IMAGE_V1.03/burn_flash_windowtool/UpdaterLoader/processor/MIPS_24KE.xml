@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!-- Copyright (C) 2007-2012 Free Software Foundation, Inc.
+
+     Copying and distribution of this file, with or without modification,
+     are permitted in any medium without royalty provided the copyright
+     notice and this notice are preserved.  -->
+
+<!DOCTYPE target SYSTEM "gdb-target.dtd">
+<target>
+  <architecture>mips</architecture>
+  <osabi>GNU/Linux</osabi>
+  <xi:include href="mips-cpu.xml"/>
+  <xi:include href="mips-cp0.xml"/>
+  <xi:include href="mips-fpu.xml"/>
+
+  <feature name="org.gnu.gdb.mips.linux">
+    <reg name="Indx" bitsize="32" regnum="72"/>
+	  <reg name="Rand" bitsize="32" regnum="73"/>
+	  <reg name="Elo0" bitsize="32" regnum="74"/>
+	  <reg name="Elo1" bitsize="32" regnum="75"/>  
+	  <reg name="Ctxt" bitsize="32" regnum="76"/>
+	  <reg name="PMsk" bitsize="32" regnum="77"/>
+	  <reg name="Wird" bitsize="32" regnum="78"/>
+	  <reg name="Nous" bitsize="32" regnum="79"/>
+	  <reg name="CNT" bitsize="32"  regnum="80"/>
+	  <reg name="Enhi" bitsize="32" regnum="81"/>
+	  <reg name="Cmp" bitsize="32"  regnum="82"/>
+	  <reg name="EPC" bitsize="32"  regnum="83"/>
+	  <reg name="Prid" bitsize="32" regnum="84"/>    
+	  <reg name="Cnfg" bitsize="32" regnum="85"/>
+	  <reg name="Ladd" bitsize="32" regnum="86"/>
+	  <reg name="Wcl0" bitsize="32" regnum="87"/>
+	  <reg name="Wch1" bitsize="32" regnum="88"/>
+	  <reg name="Nous" bitsize="32" regnum="89"/>
+	  <reg name="Vctr" bitsize="32" regnum="90"/>
+	  <reg name="Nous" bitsize="32" regnum="91"/>
+	  <reg name="Debg" bitsize="32" regnum="92"/>
+	  <reg name="Perf" bitsize="32" regnum="93"/>
+	  <reg name="Nous" bitsize="32" regnum="94"/>
+	  <reg name="Nous" bitsize="32" regnum="95"/>
+	  <reg name="Tg10" bitsize="32" regnum="96"/>
+	  <reg name="Tgl1" bitsize="32" regnum="97"/>
+	  <reg name="EREPC" bitsize="32" regnum="98"/>
+	  <reg name="DeSv" bitsize="32" regnum="99"/>    
+	  <reg name="Perf1" bitsize="32" regnum="100"/>
+  </feature>
+</target>

@@ -1,0 +1,26 @@
+2019-10-11 17:44:25:>>>> Set Target Board
+2019-10-11 17:44:30:>>>> Set Device Successfully
+
+2019-10-11 17:44:33:>>>> Get New Device!
+2019-10-11 17:44:33:>>>> Number of Device Connected : 1
+2019-10-11 17:44:39:>>>> Init Device Dram 
+2019-10-11 17:44:39:>>>> Download Updater 
+2019-10-11 17:44:41:>>>> AS Enable 
+2019-10-11 17:44:42:[Dev0] Write   Nand  Flash  Images  
+2019-10-11 17:44:44:[Dev0] Write   Nand  Part00   Successfully !
+2019-10-11 17:44:45:[Dev0] Write   Nand  Part01   Successfully ! 
+2019-10-11 17:44:46:[Dev0] Write   Nand  Part02   Successfully ! 
+2019-10-11 17:44:46:[Dev0] Write   Nand  Part03   Successfully ! 
+2019-10-11 17:44:46:[Dev0] Write   Nand  Part04   Successfully ! 
+2019-10-11 17:44:47:[Dev0] Write   Nand  Part05   Successfully ! 
+2019-10-11 17:44:47:[Dev0] Write   Nand  Part06   Successfully ! 
+2019-10-11 17:44:49:[Dev0] Write   Nand  Part10   Successfully ! 
+2019-10-11 17:44:50:[Dev0] Write   Nand  Part11   Successfully ! 
+2019-10-11 17:44:53:[Dev0] Write   Nand  Part12   Successfully ! 
+2019-10-11 17:45:00:[Dev0] Write   Nand  Part13   Successfully ! 
+2019-10-11 17:45:01:[Dev0] Write   Nand  Part14   Successfully ! 
+2019-10-11 17:45:01:[Dev0] Write   Nand  Part15   Successfully ! 
+2019-10-11 17:45:05:[Dev0]  OK!    All Finish!
+
+2019-10-11 17:45:16:>>>> Unplugged Device!
+2019-10-11 17:45:16:>>>> Number of Device Connected : 0

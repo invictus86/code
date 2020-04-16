@@ -1,0 +1,195 @@
+mww  0x18000074 0x002000C0
+	mww 0x18001030 0x603fffff
+	mww 0x1803E02C 0x90900000
+
+################## DDR PHY Reset ###################
+	
+#  mwb 0x18000084 0x10
+#  sleep		100
+#  mwb 0x18000084 0x00
+#  sleep		100
+#  mwb 0x18000084 0x20
+#  sleep		100
+#  mwb 0x18000084 0x00
+	
+# mem2array array2mem	
+################### PHY1 initial ###################	
+	
+#	ali_cortex_a9.cpu1 mem2array	IOREG 32 0x1803E08C 1
+#	puts "expr $IOREG + 1"
+#	set IOREG 1
+	
+#	mww 0x1803E030							 
+#	mwh 0x1803E034 0x1818		
+
+##	mww 0x1803E02C 0x8C8C8888
+
+##	set ioval(0) 0
+##	mem2array ioval 32 0x1803E08C 1
+
+##	set ioval(0) [expr ($ioval(0) & 0x1ff)]
+##	set ioval(0) [expr ($ioval(0) / 0x4)]
+##	set ioval(0) [expr ($ioval(0) + 0x10)]
+#	echo $ioval(0)
+	
+##	array2mem ioval 8 0x1803E033 1
+	
+#  mwb 0x1803E033 0x37
+  mww 0x1803E030 0x00ded098
+  mww 0x1803E034 0xe35e3636	  
+  mww 0x1803E02C 0x84848484	  
+	    
+	mww 0x1803E038 0x849ac118  
+	    
+	mww 0x1803E03C 0xc0000000
+	mww 0x1803E03C 0x80000000
+	mww 0x1803E040 0x00040004  
+	mww 0x1803E044 0x22062206  
+	mww 0x1803E048 0x22062206  
+	mww 0x1803E04c 0x000600c0  
+		                                                
+################### PHY2 initial ###################	   
+	                                                       
+#	mww 0x1803E030							                    
+#	mwh 0x1803F034 0x1818			              
+
+##	mww 0x1803F02C 0x8a8a8282
+
+##	set ioval(0) 0
+##	mem2array ioval 32 0x1803F08C 1
+
+##	set ioval(0) [expr ($ioval(0) & 0x1ff)]
+##	set ioval(0) [expr ($ioval(0) / 0x4)]
+##	set ioval(0) [expr ($ioval(0) + 0x28)]
+#	echo $ioval(0)
+	
+##	array2mem ioval 8 0x1803F033 1
+	
+#  mwb 0x1803F033 0x37
+  mww 0x1803F030 0x00dea000
+  mww 0x1803F034 0xe35e3636	  
+  mww 0x1803F02C 0x82820202	  
+  		                      
+	mww 0x1803F038 0x849ac118                
+	mww 0x1803F03C 0xc0000000
+	mww 0x1803F03C 0x80000000
+	mww 0x1803F040 0x00040004                
+	mww 0x1803F044 0x22062206                
+	mww 0x1803F048 0x22062206                
+	mww 0x1803F04c 0x000600c0                
+		                                                		                                                
+################### DM_CTRL initial ###################	
+	mww 0x180010b0  0x20140327 
+	mww 0x180010b4  0x15300000 
+      
+  mwb 0x18001007  0x80          
+                                
+	mww 0x18001000  0x1C80C383 
+	mwh 0x18001030  0xB861     
+	mwb 0x18001033  0x60    
+	mwb 0x18001033  0x20     
+	mwb 0x18001033  0x80     
+	mwb 0x18001033  0xC0     
+	mwb 0x18001033  0x60     
+       
+
+# Set DDR Control 1st channel
+	mwb 0x18001004 0x1C
+# Set MR2	
+	mdw 0x80082180 0x01  
+# Set MR3	  
+	mdw 0x800C0000 0x01
+# Set MR1	     
+#	mdw 0x80040000 0x01
+	mdw 0x80040020 0x01
+# Set MR0	   
+	mdw 0x8001D700 0x01    
+#	mdw 0x80040010 0x01		
+#	mwb 0x18001004 0x2C
+#	mdw 0x80004000 0x01	
+# Issue ZQCL
+	mwb 0x18001004 0x2C
+	mdw 0x80004000 0x01	
+	
+# Set DDR Control 2nd channel           
+	mwb 0x18001004 0x1C
+# Set MR2	                       
+	mdw 0x88082180 0x01           
+# Set MR3	                       
+	mdw 0x880C0000 0x01            
+# Set MR1	                       
+#	mdw 0x88040000 0x01           
+	mdw 0x88040020 0x01           
+# Set MR0	                       
+	mdw 0x8801D700 0x01  
+# Issue ZQCL	         
+	mwb 0x18001004 0x2C
+	mdw 0x88004000	0x01
+
+# Issue nop	                 
+	mwb 0x18001004 0x0C
+	mdw 0x800026a0 0x01	
+	mdw 0x800026a0 0x01	
+	mdw 0x880026a0 0x01	
+	mdw 0x880026a0 0x01	
+
+#Issue Precharge	
+	mwb 0x18001004 0x14
+	mdw 0x800026a0 0x01	
+	mdw 0x880026a0 0x01	
+
+#Auto Refresh
+	mwb 0x18001004 0x24
+	mdw 0x800026a0 0x01 	
+	mdw 0x880026a0 0x01	
+
+#normal
+	mwb 0x18001004 0x00
+		
+# modify to 1GB		
+#	mww 0x18001000 0x70ad7034	 
+	mww 0x18001000 0x70ad7035	 
+	mww 0x18001004 0x80139FC0	 
+	mwb 0x18001031 0x50         
+	mwb 0x1800100D 0x40         
+	mwh 0x1800100E 0xFAFF       
+	mww 0x18000224 0xFFFFFFFF   
+	mww 0x18000228 0xFFFFFFFF   
+	mww 0x1800022C 0xFFFFFFFF   
+	mww 0x18001010 0xFFFFFFFF   
+	mww 0x18001018 0xFFFFFFFF   
+	mww 0x18001078 0xFFFFFFFF   
+	mww 0x1800107C 0xFFFFFFFF   
+	mww 0x18001080 0xFFFFFFFF   
+	mww 0x18001020 0xFFFFFFFF   
+	mww 0x18001024 0xFFFFFFFF   
+	mww 0x18001008 0xFFFF8022   
+	mww 0x18001014 0x33330F00   
+	mww 0x1800101C 0xFFFFFFFF   
+	mww 0x18001034 0xFFFF8022   
+	mww 0x18001038 0x33330F00   
+	mww 0x1800103C 0xFFFFFFFF   
+  mww 0x18001028 0xFFFF8022   
+  mww 0x1800102C 0x33330F00   
+  mww 0x18001068 0xFFFFFFFF   
+  mww 0x18001094 0xFFFF8022   
+  mww 0x18001098 0x33330F00   
+  mww 0x1800109C 0xFFFFFFFF   
+  mww 0x180010A0 0xFFFF8022   
+  mww 0x180010A4 0x33330F00   
+  mww 0x180010A8 0xFFFFFFFF   
+  mww 0x180010E0 0xFFFF8022   
+  mww 0x180010E4 0x33330F00  
+  mww 0x180010E8 0xFFFFFFFF  
+	           
+##########              Re-map                          ############### 
+	mww 0x1A000000 0x00000001	
+
+# CPU CLK setting
+  mww 0x18000094 0x4AD80000
+
+  mww 0x180010b0 0x55555555
+  mww 0x180010b4 0xAAAAAAAA
+  mww 0x180010b8 0x00F00000
+  mww 0x180010C0 0x0000FFE0	  
+  mww 0x1A000000 0x00000001	

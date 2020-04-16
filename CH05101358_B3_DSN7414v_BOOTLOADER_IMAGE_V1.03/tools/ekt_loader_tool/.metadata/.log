@@ -1,0 +1,174 @@
+!SESSION 2019-12-31 18:17:06.144 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2019-12-31 18:17:09.679
+!MESSAGE MenuFactoryGenerator.mergeIntoModel: Invalid menu URI: com.hisilicon.fastplay.menuContribution1
+
+!ENTRY org.eclipse.osgi 2 1 2019-12-31 18:17:56.476
+!MESSAGE NLS unused message: 已经连接 in: com.hisilicon.fastboot.messages
+!SESSION 2019-12-31 18:18:36.919 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2019-12-31 18:18:38.221
+!MESSAGE MenuFactoryGenerator.mergeIntoModel: Invalid menu URI: com.hisilicon.fastplay.menuContribution1
+
+!ENTRY org.eclipse.osgi 2 1 2019-12-31 18:18:40.371
+!MESSAGE NLS unused message: 已经连接 in: com.hisilicon.fastboot.messages
+!SESSION 2019-12-31 18:19:41.024 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2019-12-31 18:19:42.458
+!MESSAGE MenuFactoryGenerator.mergeIntoModel: Invalid menu URI: com.hisilicon.fastplay.menuContribution1
+
+!ENTRY org.eclipse.osgi 2 1 2019-12-31 18:19:44.647
+!MESSAGE NLS unused message: 已经连接 in: com.hisilicon.fastboot.messages
+!SESSION 2019-12-31 18:20:53.644 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2019-12-31 18:20:55.041
+!MESSAGE MenuFactoryGenerator.mergeIntoModel: Invalid menu URI: com.hisilicon.fastplay.menuContribution1
+
+!ENTRY org.eclipse.osgi 2 1 2019-12-31 18:20:57.177
+!MESSAGE NLS unused message: 已经连接 in: com.hisilicon.fastboot.messages
+!SESSION 2019-12-31 18:21:36.121 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2019-12-31 18:21:38.290
+!MESSAGE MenuFactoryGenerator.mergeIntoModel: Invalid menu URI: com.hisilicon.fastplay.menuContribution1
+
+!ENTRY org.eclipse.osgi 2 1 2019-12-31 18:21:40.635
+!MESSAGE NLS unused message: 已经连接 in: com.hisilicon.fastboot.messages
+!SESSION 2020-01-02 09:51:44.463 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2020-01-02 09:51:45.964
+!MESSAGE MenuFactoryGenerator.mergeIntoModel: Invalid menu URI: com.hisilicon.fastplay.menuContribution1
+
+!ENTRY org.eclipse.osgi 2 1 2020-01-02 09:51:48.212
+!MESSAGE NLS unused message: 已经连接 in: com.hisilicon.fastboot.messages
+!SESSION 2020-01-02 10:09:09.987 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2020-01-02 10:09:11.265
+!MESSAGE MenuFactoryGenerator.mergeIntoModel: Invalid menu URI: com.hisilicon.fastplay.menuContribution1
+
+!ENTRY org.eclipse.osgi 2 1 2020-01-02 10:09:13.620
+!MESSAGE NLS unused message: 已经连接 in: com.hisilicon.fastboot.messages
+!SESSION 2020-01-02 10:09:36.020 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2020-01-02 10:09:38.051
+!MESSAGE MenuFactoryGenerator.mergeIntoModel: Invalid menu URI: com.hisilicon.fastplay.menuContribution1
+
+!ENTRY org.eclipse.osgi 2 1 2020-01-02 10:09:40.352
+!MESSAGE NLS unused message: 已经连接 in: com.hisilicon.fastboot.messages
+!SESSION 2020-01-02 11:04:24.768 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2020-01-02 11:04:26.614
+!MESSAGE MenuFactoryGenerator.mergeIntoModel: Invalid menu URI: com.hisilicon.fastplay.menuContribution1
+!SESSION 2020-01-02 11:09:55.736 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2020-01-02 11:10:03.853
+!MESSAGE MenuFactoryGenerator.mergeIntoModel: Invalid menu URI: com.hisilicon.fastplay.menuContribution1
+!SESSION 2020-01-02 11:10:19.214 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2020-01-02 11:10:27.251
+!MESSAGE MenuFactoryGenerator.mergeIntoModel: Invalid menu URI: com.hisilicon.fastplay.menuContribution1
+
+!ENTRY org.eclipse.osgi 2 1 2020-01-02 11:10:29.790
+!MESSAGE NLS unused message: 已经连接 in: com.hisilicon.fastboot.messages
+!SESSION 2020-01-02 11:11:03.531 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2020-01-02 11:11:06.685
+!MESSAGE MenuFactoryGenerator.mergeIntoModel: Invalid menu URI: com.hisilicon.fastplay.menuContribution1
+
+!ENTRY org.eclipse.osgi 2 1 2020-01-02 11:11:10.557
+!MESSAGE NLS unused message: 已经连接 in: com.hisilicon.fastboot.messages
+!SESSION 2020-01-02 11:11:17.269 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2020-01-02 11:11:21.518
+!MESSAGE MenuFactoryGenerator.mergeIntoModel: Invalid menu URI: com.hisilicon.fastplay.menuContribution1
+
+!ENTRY org.eclipse.osgi 2 1 2020-01-02 11:11:23.989
+!MESSAGE NLS unused message: 已经连接 in: com.hisilicon.fastboot.messages
+!SESSION 2020-01-02 11:11:33.302 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2020-01-02 11:11:35.783
+!MESSAGE MenuFactoryGenerator.mergeIntoModel: Invalid menu URI: com.hisilicon.fastplay.menuContribution1
+
+!ENTRY org.eclipse.osgi 2 1 2020-01-02 11:11:38.863
+!MESSAGE NLS unused message: 已经连接 in: com.hisilicon.fastboot.messages
+!SESSION 2020-01-02 11:11:51.290 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui 4 4 2020-01-02 11:11:52.728
+!MESSAGE MenuFactoryGenerator.mergeIntoModel: Invalid menu URI: com.hisilicon.fastplay.menuContribution1
+
+!ENTRY org.eclipse.osgi 2 1 2020-01-02 11:11:55.488
+!MESSAGE NLS unused message: 已经连接 in: com.hisilicon.fastboot.messages

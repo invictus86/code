@@ -1,0 +1,10 @@
+﻿简介:按照本文档的步骤，可以将app kernel 和 app rootfs 以及其它可以升级的image，包括bootlogo，loader resource， config 等制作成可用于USB升级或OTA升级的升级文件。
+
+一、操作步骤：
+进入ekt_loader_tool目录，打开ekt_loader_tool.cfg，
+根据实际情况，修改[download info]，[set file]，[PID info]这3项配置，
+执行./ekt_loader_tool，该工具运行后会弹出选择信息，选择1，按enter键即可生成升级文件
+
+二、输出文件：
+UpgradeFile.bin		//用于USB升级
+UpgradeFile.ts		//用于OTA升级

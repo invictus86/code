@@ -1,0 +1,10 @@
+/*
+* Please do not modify any content of this
+* file unless you know what you're doing ...
+*
+* DBG_PRINTF_LVL 	= 1, Printing debug information enabled
+* DBG_PRINTF_LVL  > 1, Printing debug information Disabled
+* 
+*/
+
+DBG_PRINTF_LVL:1
