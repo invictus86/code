@@ -88,7 +88,7 @@ def make_big_see_size():
 
 
 def make_big_cfg_size():
-    big_bootlogo_size = 0.4 * 1024 * 1024
+    big_bootlogo_size = int(0.4 * 1024 * 1024)
 
     old_file_path = "./cut.sh"
     new_file_path = "./cut_big_cfg_size.sh"
@@ -188,10 +188,12 @@ make_vmlinux_fsi_size()
 make_big_fsi_size()
 make_big_bootlogo_size()
 make_big_see_size()
+make_big_cfg_size()
 make_excessive_big_vmlinux_size()
 make_excessive_big_fsi_size()
 make_excessive_big_bootlogo_size()
 make_excessive_big_see_size()
+make_excessive_big_cfg_size()
 
 copyfile_to_folder("big_bootlogo_size.bin", "../big_bootlogo_size.bin")
 copyfile_to_folder("big_fsi_size.bin", "../big_fsi_size.bin")
